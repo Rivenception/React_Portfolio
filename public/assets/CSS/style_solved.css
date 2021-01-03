@@ -1,0 +1,153 @@
+/**
+ First External CSS Stylesheet
+ **/
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+
+.wrapper {
+  padding: 30px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", "helvetica neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: white;
+}
+
+/* .img-bg {
+  background-image: url("../Images/background-one.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: contain;
+} */
+
+.img-center {
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  width: auto;
+}
+
+/* body.img-bg-url {
+  background-image: url("https://fsb.zobj.net/crop.php?r=ELW0Obx9aXGfqBXABJPrBnUe_8Plm0k1ovtBvYG1t8ID0zyefJmVEkhfvFEey8Cx8HMKYPLszwm1jokU5IKcrmsTd8KGH3Sea7LyP5tTqjNnaFpN7DQMyNxkagHqBToGDxfh7ym8ssyUQylR");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+} */
+
+.bg-black {
+  background-color: black;
+}
+
+/* .image-overlay {
+  background-image: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+
+header {
+  background: #333;
+}
+
+#titleName {
+  font-size: 30pt;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 7% 0% 0% 1%;
+}
+
+#main-bio,
+.contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 49%;
+  padding: 1%;
+}
+
+.contact-info {
+  width: 30%;
+  padding: 1%;
+}
+
+#bio-image {
+  width: 16%;
+  height: auto;
+  margin-right: 1%;
+}
+
+/*Flavicons for Contacts Sections*/
+.fa-linkedin {
+  background-image: url("../Images/Favicons/fa-linkedin.png");
+}
+.fa-facebook {
+  background-image: url("../Images/Favicons/fa-facebook.jpg");
+}
+.fa-email {
+  background-image: url("../Images/Favicons/fa-email.png");
+}
+.fa-github {
+  background-image: url("../Images/Favicons/fa-github.png");
+}
+
+.fa-icon-size {
+  width: 28px;
+  height: auto;
+  margin: 2px;
+}
+
+.container-iframe {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

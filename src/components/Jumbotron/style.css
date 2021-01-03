@@ -1,0 +1,10 @@
+.img-center {
+    margin: 0 auto;
+    text-align: center;
+    height: 200px;
+    width: auto;
+}
+
+#titleName {
+    font-size: 30pt;
+}
