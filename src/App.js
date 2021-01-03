@@ -22,7 +22,10 @@ function App() {
       <Modal/>
       <Router>
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
+            <HomePage/>
+          </Route>
+          <Route exact path="/React_Portfolio">
             <HomePage/>
           </Route>
           <Route exact path="/index">
