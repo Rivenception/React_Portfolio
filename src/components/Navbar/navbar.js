@@ -4,7 +4,7 @@ import NavList from './nav-list';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="/index.html">
+      <a className="navbar-brand" href="/index">
       <strong>RICHARD MINGIONE</strong>
       </a>
       <NavList/>

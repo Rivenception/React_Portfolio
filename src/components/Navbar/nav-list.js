@@ -7,14 +7,14 @@ function NavList() {
   return (
     <ul className="navbar-nav ml-auto">
       <NavItem
-        href="./aboutMe.html"
+        href="./aboutMe"
         altLink="About Page"
         src="/assets/Images/Favicons/fa-aboutme.png"
         altImg="aboutme"
         innerText="about"
       />
       <NavItem
-        href="./portfolio.html"
+        href="./portfolio"
         altLink="Portfolio Page"
         src="/assets/Images/Favicons/fa-briefcase.png"
         altImg="portfolio"
